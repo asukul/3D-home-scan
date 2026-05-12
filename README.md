@@ -33,6 +33,8 @@ npm run generate:demo-model
 npm run build
 ```
 
+On Windows inside Dropbox, Vite writes its local cache and build output to `%LOCALAPPDATA%/3d-home-scan` to avoid file-lock issues from sync tooling. Docker and Linux builds still emit to `dist`.
+
 ## GCP Deployment
 
 This repo is configured for GCP project `deeplearn1`.
