@@ -1,0 +1,339 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "3D Home Scan demo generator"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "floor slab",
+      "mesh": 0,
+      "scale": [
+        3.6,
+        0.04,
+        2.45
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ceiling slab",
+      "mesh": 1,
+      "scale": [
+        3.6,
+        0.04,
+        2.45
+      ],
+      "translation": [
+        0,
+        2.7,
+        0
+      ]
+    },
+    {
+      "name": "back wall",
+      "mesh": 1,
+      "scale": [
+        3.6,
+        1.35,
+        0.05
+      ],
+      "translation": [
+        0,
+        1.35,
+        -2.45
+      ]
+    },
+    {
+      "name": "left wall",
+      "mesh": 1,
+      "scale": [
+        0.05,
+        1.35,
+        2.45
+      ],
+      "translation": [
+        -3.6,
+        1.35,
+        0
+      ]
+    },
+    {
+      "name": "right wall",
+      "mesh": 1,
+      "scale": [
+        0.05,
+        1.35,
+        2.45
+      ],
+      "translation": [
+        3.6,
+        1.35,
+        0
+      ]
+    },
+    {
+      "name": "kitchen island",
+      "mesh": 2,
+      "scale": [
+        0.72,
+        0.44,
+        0.38
+      ],
+      "translation": [
+        -0.95,
+        0.48,
+        -0.9
+      ]
+    },
+    {
+      "name": "sofa base",
+      "mesh": 3,
+      "scale": [
+        1.05,
+        0.32,
+        0.42
+      ],
+      "translation": [
+        1.3,
+        0.36,
+        0.85
+      ]
+    },
+    {
+      "name": "sofa back",
+      "mesh": 3,
+      "scale": [
+        1.05,
+        0.42,
+        0.12
+      ],
+      "translation": [
+        1.3,
+        0.78,
+        1.22
+      ]
+    },
+    {
+      "name": "scan volume",
+      "mesh": 4,
+      "scale": [
+        1.1,
+        1.18,
+        0.04
+      ],
+      "translation": [
+        0,
+        1.26,
+        1.62
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 3
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 4
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "warm oak floor",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.65,
+          0.48,
+          0.31,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.86
+      }
+    },
+    {
+      "name": "painted wall",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9,
+          0.91,
+          0.87,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.78
+      }
+    },
+    {
+      "name": "deep green cabinet",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.08,
+          0.24,
+          0.2,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.62
+      }
+    },
+    {
+      "name": "soft blue sofa",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.17,
+          0.34,
+          0.55,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "sunlit scan volume",
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.96,
+          0.67,
+          0.28,
+          0.32
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.38
+      }
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 648,
+      "uri": "data:application/octet-stream;base64,AACAvwAAgL8AAIA/AACAPwAAgL8AAIA/AACAPwAAgD8AAIA/AACAvwAAgD8AAIA/AACAPwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgD8AAIC/AACAPwAAgD8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIA/AACAvwAAgD8AAIA/AACAvwAAgD8AAIC/AACAPwAAgL8AAIA/AACAPwAAgL8AAIC/AACAPwAAgD8AAIC/AACAPwAAgD8AAIA/AACAvwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIC/AACAvwAAgD8AAIC/AACAvwAAgL8AAIC/AACAPwAAgL8AAIC/AACAPwAAgL8AAIA/AACAvwAAgL8AAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAABAAIAAAACAAMABAAFAAYABAAGAAcACAAJAAoACAAKAAsADAANAA4ADAAOAA8AEAARABIAEAASABMAFAAVABYAFAAWABcA"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 72,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ]
+}

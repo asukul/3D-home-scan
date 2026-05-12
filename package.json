@@ -1,0 +1,37 @@
+{
+  "name": "3d-home-scan",
+  "private": false,
+  "version": "0.1.0",
+  "description": "Open-source 3D home walkthrough capture and viewing app for real estate.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "generate:demo-model": "node scripts/create-demo-model.mjs"
+  },
+  "keywords": [
+    "3d",
+    "real-estate",
+    "arkit",
+    "model-viewer",
+    "gltf",
+    "usdz",
+    "gcp"
+  ],
+  "author": "Adisak Sukul",
+  "license": "MIT",
+  "dependencies": {
+    "@google/model-viewer": "^4.2.0",
+    "lucide-react": "^1.14.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^6.0.3",
+    "vite": "^6.4.2"
+  }
+}
