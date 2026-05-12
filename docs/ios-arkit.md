@@ -2,6 +2,8 @@
 
 Native iOS capture is the source of truth for guided home scans. The web app is the sharing, review, and listing presentation layer.
 
+Primary device targets are iPhone 16/17 Pro Max and iPad Pro models with LiDAR support.
+
 ## Supported Capture Modes
 
 Interior mode:

@@ -367,7 +367,7 @@ function App() {
             <dl className="summary-list">
               <div>
                 <dt>Target</dt>
-                <dd>iPhone Pro Max, iPad Pro, web</dd>
+                <dd>iPhone 16/17 Pro Max, iPad Pro, web</dd>
               </div>
               <div>
                 <dt>Runtime</dt>

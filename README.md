@@ -2,7 +2,7 @@
 
 Open-source 3D home walkthrough capture and viewing for realtors, buyers, and anyone scanning houses for sale.
 
-The first milestone is a web viewer and scan workflow shell. Native iOS capture should use ARKit, RoomPlan, RealityKit, and LiDAR on supported iPhone Pro Max and iPad Pro devices. The web runtime uses [`<model-viewer>`](https://modelviewer.dev/) for glTF/USDZ viewing and AR handoff.
+The first milestone is a web viewer and scan workflow shell. Native iOS capture should use ARKit, RoomPlan, RealityKit, and LiDAR on supported iPhone 16/17 Pro Max and iPad Pro devices. The web runtime uses [`<model-viewer>`](https://modelviewer.dev/) for glTF/USDZ viewing and AR handoff.
 
 ## Product Direction
 
